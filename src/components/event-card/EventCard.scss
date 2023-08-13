@@ -1,0 +1,66 @@
+.card-event-component {
+  margin-top: 12px;
+
+  > div {
+    border-radius: 15px;
+    height: 215px;
+  }
+
+  .grid-card {
+    height: 100%;
+    border-radius: 15px;
+    background-color: #06015952;
+    color: var(--ion-color-primary-contrast);
+    padding: 16px 8px 4px 2px;
+    font-size: 10px;
+  }
+
+  .check-in-wraper,
+  .check-in,
+  .info-event {
+    font-size: 1rem;
+  }
+
+  .name {
+    margin-bottom: 3px;
+  }
+
+  .name-title {
+    font-size: small;
+    font-weight: bold;
+  }
+
+  .check-in-wraper {
+    .avatar {
+      margin-bottom: 5px;
+    }
+  }
+
+  .icon-check {
+    padding-left: 2px;
+  }
+
+  .info-1 {
+    padding: 5px 15px;
+    height: 30%;
+  }
+
+  .info-2 {
+    display: flex;
+    height: 70%;
+    align-items: flex-end;
+  }
+
+  .title-event {
+    font-size: 2rem;
+  }
+
+  .justify-content {
+    justify-content: end;
+  }
+
+  ion-avatar {
+    width: 100px;
+    height: 100px;
+  }
+}

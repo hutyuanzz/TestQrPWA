@@ -1,7 +1,5 @@
 {
-  "name": "myApp",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "react-vite"
+  "name": "p2s-app",
+  "integrations": {},
+  "type": "react"
 }

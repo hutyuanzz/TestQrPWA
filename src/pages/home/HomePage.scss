@@ -1,0 +1,50 @@
+.home-page {
+  .logo-wraper {
+    margin: 10px;
+    width: 200px;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .event-code {
+    padding: 7px;
+    ion-button {
+      margin: 0;
+    }
+  }
+
+  .input {
+    margin: 0 10px;
+    font-size: large;
+    border-bottom: 1px solid var(--ion-color-light);
+  }
+
+  .hosted-event {
+    margin: 32px 20px 32px 20px;
+
+    .title {
+      font-size: 21px;
+    }
+    .description {
+      margin-top: 5px;
+      font-size: 15px;
+    }
+  }
+
+  .joined-event {
+    margin: 0px 20px;
+    .title {
+      font-size: 21px;
+    }
+  }
+
+  .viewmore-wrap {
+    text-align: end;
+  }
+
+  .view-more {
+    font-size: 8px;
+  }
+}
